@@ -277,8 +277,9 @@ a {
   margin-left: 8px;
 }
 .featured .list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin-top: 70px;
-  display: flex;
   gap: 30px;
 }
 .featured .item {
@@ -521,7 +522,7 @@ a {
 }
 
 .footer .row-top {
-  gap: 185px;
+  column-gap: 185px;
 }
 
 .footer .heading {
